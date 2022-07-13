@@ -46,3 +46,44 @@ var arr=[
 for(var i in arr){
     console.log(i,arr[i]);
     }
+
+
+2. Resume Data On JSON :
+
+var resume=[{"basics":[
+            {"name":"Syed Sulthan A", 
+             "Address":"Muslim South Street Natham",
+             "Email":"syedsulthan868@gmail.com",
+             "Mobile Number":"9597203734",
+            }],
+            
+           
+            
+            "Educational Qualification":[
+                                        {"qualification":"B.Sc computer science",
+                                         "institution":"MK University",
+                                         "Year of Passing":"2021",
+                                         "percentage":"70",
+                                        },
+                                        {"qualification":"12th",
+                                         "institution":"De Nobili School",
+                                         "Year of Passing":"2018",
+                                         "percentage":"64",
+                                        },
+                                        {"qualification":"10th",
+                                         "institution":"R.c matric school",
+                                         "Year of Passing":"2016",
+                                         "percentage":"84.8",
+                                        }
+                                        ],
+            "other":[{                            
+             "Skills":"1. basics of html and css, 2. ms word & excel, 3.fast learner",
+             "conclusion":"i do hereby declare the above furnished information is true to my knowledge and belief",                  
+             "place":"maduai",
+             "date":"13-07-2022"
+                   }],
+            
+        }]
+        
+console.log(resume);
+
