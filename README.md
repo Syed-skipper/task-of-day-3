@@ -82,7 +82,7 @@ var resume=[{"basics":[
              "date":"13-07-2022"
                    }],
             
-        }]
+   }]
         
 console.log(resume);
 
